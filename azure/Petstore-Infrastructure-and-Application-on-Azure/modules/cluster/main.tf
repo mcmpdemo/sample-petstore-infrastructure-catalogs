@@ -3,7 +3,7 @@ variable kubernetes_cluster_name {}
 variable kubernetes_version {
     type = string
     description = "Kubernetes cluster version. Default is set to 1.21.9"
-    default = "1.23.12"
+    default = "1.27.3"
 }
 
 variable dns_name_prefix {
